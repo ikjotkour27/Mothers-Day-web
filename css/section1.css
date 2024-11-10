@@ -1,0 +1,82 @@
+/* Grid Section1 */
+.boxesPhotos {
+    display: grid;
+    grid-template-columns:210px 210px 210px;
+    grid-template-rows: 210px 210px 210px 210px 210px 210px;
+  }
+  .section {
+    width: 190px;
+    height: 190px;
+    color: black;
+    background-color: rgb(136, 215, 152);
+  }
+  .blackb {
+    width: 190px;
+    height: 190px;
+    color: black;
+    background-color: rgb(166, 107, 117);
+    margin: 10px;
+  }
+  .section :hover {
+    width: 204px;
+    height: 204px;
+  }
+  .blackb img{
+    width: 180px;
+    height: 180px;
+  }
+  /*  */
+  .section1{
+    background-image: url("images/floral.jpg");
+    width: 100vw;
+    height: 900px;
+    padding: 20px;
+  }
+  .title{
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 100;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 49vw 49vw;
+  }
+  /* grid1 */
+  .boxesPhotos {
+    margin: 50px 110px auto;
+    display: grid;
+    grid-template-columns:210px 210px 210px;
+    grid-template-rows: 210px 210px 210px 210px 210px 210px;
+  }
+  .section {
+    width: 190px;
+    height: 190px;
+    background-color: rgb(136, 215, 152);
+  }
+  .blackb {
+    width: 190px;
+    height: 190px;
+    background-color: rgb(166, 107, 117);
+    margin: 10px;
+  }
+  .section :hover {
+    width: 204px;
+    height: 204px;
+  }
+  .blackb img{
+    width: 180px;
+    height: 180px;
+  }
+  /* grid2 */
+  .grid2{
+      background-color: pink;
+      margin-top: 100px;
+      width: 38vw;
+      height: 500px;
+      border: 2px gray solid;
+      border-radius: 15px;
+      margin-left: 70px;
+    padding: 20px;
+    overflow: scroll;
+    font-size: x-large;
+  }

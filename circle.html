@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heart beat</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: pink;display: grid;
+        }
+        .circle{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            border: 1px red solid;
+            border-radius: 100%;
+            display: inline-block;
+            grid-column: center;
+            grid-row: center;
+            transform: translateX(-40px) scale(1);
+            animation: heartBeat1 0.8s ease-in 0.5s infinite alternate;
+        }
+        .circle2{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            border: 1px red solid;
+            border-radius: 100%;
+            display: inline-block;
+            grid-column: center;
+            grid-row: center;
+            transform: translateX(40px) scale(1);
+            animation: heartBeat 0.8s ease-in 0.5s infinite alternate;
+        }
+        .square{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            border: 1px red solid;
+            grid-column: center;
+            grid-row: center;
+            transform-origin: center;
+            transform: translatey(39px) rotate(45deg) scale(1);
+            animation: heartBeat2 0.8s ease-in 0.5s infinite alternate;
+        }
+        @keyframes heartBeat{
+            from{
+                transform:translateX(40px) scale(1);
+            }
+            to{
+                transform : translateX(45px) scale(1.2);
+            }
+        }
+        @keyframes heartBeat1{
+            from{
+                transform: translate(-40px) scale(1);
+            }
+            to{
+                transform: translate(-45px) scale(1.2);
+            }       
+        }
+        @keyframes heartBeat2{
+            from{
+                transform: translatey(39px) rotate(45deg) scale(1);
+            }
+            to{
+                transform: translatey(44px) rotate(45deg) scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="circle"></div>
+        <div class="circle2"></div>
+        <div class="square"></div>
+    </div>
+    <script>
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+/* Section2 */
+.styler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+    background-color: #87ceeb;
+    border: 10px white solid;
+}
+.text {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    height: 60vh;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+    border: 3px solid black;
+    border-radius: 5px;
+    overflow: auto;
+    white-space: pre-wrap;
+    position: relative;
+    width: 80vw;
+    padding: 40px 0px;
+    margin-top: 10px;
+}
+.button {
+padding: 15px 30px;
+font-size: 18px;
+font-weight: bold;
+border: none;
+border-radius: 5px;
+background-color: #e187eb; /* Light blue button color */
+color: #fff; /* White text color */
+cursor: pointer;
+transition: background-color 0.3s, transform 0.3s;
+}
+.button:hover {
+background-color: #5f9ea0; /* Darker blue button color on hover */
+}
